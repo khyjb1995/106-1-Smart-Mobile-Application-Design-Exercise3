@@ -2,7 +2,6 @@
 <android.support.constraint.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -59,12 +58,14 @@
         android:id="@+id/imageButton_call"
         android:layout_width="100dp"
         android:layout_height="60dp"
-        android:layout_marginLeft="33dp"
-        android:layout_marginStart="33dp"
+        android:layout_marginLeft="15dp"
         android:layout_marginTop="20dp"
         app:layout_constraintLeft_toRightOf="@+id/imageButton_web"
         app:layout_constraintTop_toBottomOf="@+id/imageView_pic"
-        app:srcCompat="@android:drawable/sym_action_call" />
+        app:srcCompat="@android:drawable/sym_action_call"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.0" />
 
     <ImageButton
         android:id="@+id/imageButton_map"
@@ -85,7 +86,6 @@
         android:layout_marginTop="20dp"
         app:layout_constraintTop_toBottomOf="@+id/imageView_pic"
         app:layout_constraintLeft_toRightOf="@+id/imageButton_map"
-        android:layout_marginLeft="32dp"
-        android:layout_marginStart="32dp" />
+        android:layout_marginLeft="15dp" />
 
 </android.support.constraint.ConstraintLayout>

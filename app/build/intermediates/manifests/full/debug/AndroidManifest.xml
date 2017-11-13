@@ -8,6 +8,8 @@
         android:minSdkVersion="25"
         android:targetSdkVersion="26" />
 
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
     <meta-data
         android:name="android.support.VERSION"
         android:value="26.0.0-alpha1" />
@@ -26,6 +28,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.khy_j.a410321171_exercise3.DetailsActivity"
+            android:label="景區介紹" />
     </application>
 
 </manifest>

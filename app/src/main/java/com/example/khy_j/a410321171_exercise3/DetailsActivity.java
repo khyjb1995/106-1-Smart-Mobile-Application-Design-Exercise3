@@ -1,9 +1,12 @@
 package com.example.khy_j.a410321171_exercise3;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.text.method.ScrollingMovementMethod;
 import android.view.KeyEvent;
+import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
@@ -25,11 +28,11 @@ public class DetailsActivity extends AppCompatActivity {
     String strCitys;
     String strPlaces;
     String strDetails;
-    String strPics;
-    Float strMapsLocX;
-    Float strMapsLocY;
+    Integer intPics;
+    Double strMapsLocX;
+    Double strMapsLocY;
     String strWeb;
-    Integer strPhone;
+    String strPhone;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,19 +47,61 @@ public class DetailsActivity extends AppCompatActivity {
         btnCall = (ImageButton)findViewById(R.id.imageButton_call);
 
         // 取得 bundle
+
         Intent intent=this.getIntent();
         Bundle bundle=intent.getExtras();
         strCitys = bundle.getString("CITY");
         strPlaces = bundle.getString("PLACE");
         strDetails = bundle.getString("DETAIL");
-        strPics = bundle.getString("PIC");
-        strMapsLocX = bundle.getFloat("MAPX");
-        strMapsLocY = bundle.getFloat("MAPY");
+        intPics = bundle.getInt("PIC");
+        strMapsLocX = bundle.getDouble("MAPX");
+        strMapsLocY = bundle.getDouble("MAPY");
         strWeb = bundle.getString("WEB");
-        strPhone = bundle.getInt("PHONE");
+        strPhone = bundle.getString("PHONE");
 
         txtPlace.setText(strPlaces);
+        txtDetail.setText(strDetails);
+        txtDetail.setMovementMethod(new ScrollingMovementMethod());
+        imgPic.setImageResource(intPics);
+        imgPic.setScaleType(ImageView.ScaleType.CENTER_CROP);
+
+        btnMap.setOnClickListener(btnMapListener);
+        btnWeb.setOnClickListener(btnWebListener);
+        btnCall.setOnClickListener(btnCallListener);
     }
+
+    private ImageButton.OnClickListener btnMapListener = new ImageButton.OnClickListener(){
+        @Override
+        public void onClick(View v)
+        {
+            Uri gmmIntentUri = Uri.parse("geo:0,0?q=" + strMapsLocX + "," + strMapsLocY + "(" + strPlaces + ")");
+            Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
+            mapIntent.setPackage("com.google.android.apps.maps");
+            if (mapIntent.resolveActivity(getPackageManager()) != null) {
+                startActivity(mapIntent);
+            }
+        }
+    };
+
+    private ImageButton.OnClickListener btnWebListener = new ImageButton.OnClickListener(){
+        @Override
+        public void onClick(View v)
+        {
+            Intent webIntent = new Intent(Intent.ACTION_VIEW);
+            webIntent.setData(Uri.parse(strWeb));
+            startActivity(webIntent);
+        }
+    };
+
+    private ImageButton.OnClickListener btnCallListener = new ImageButton.OnClickListener(){
+        @Override
+        public void onClick(View v)
+        {
+            Intent callIntent = new Intent(Intent.ACTION_DIAL);
+            callIntent.setData(Uri.parse("tel:" + strPhone));
+            startActivity(callIntent);
+        }
+    };
 
     public boolean onKeyDown(int keyCode, KeyEvent event)  {
         if (keyCode == KeyEvent.KEYCODE_BACK && event.getRepeatCount() == 0) {
