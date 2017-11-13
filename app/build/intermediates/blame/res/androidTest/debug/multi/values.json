@@ -1,5 +1,29 @@
 [
     {
+        "outputFile": "C:\\Users\\khy_j\\Dropbox\\National Dong Hwang University\\106-1 Smart Mobile Application Design\\410321171_Exercise3\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 45,
+                    "endOffset": 96
+                },
+                "from": {
+                    "file": "C:\\Users\\khy_j\\.android\\build-cache\\2609aa3e68b373c6ba3adc402af2d44c15ee4fb8\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 229,
+                        "endColumn": 45,
+                        "endOffset": 270
+                    }
+                }
+            }
+        ]
+    },
+    {
         "outputFile": "C:\\Users\\khy_j\\Desktop\\410321171_Exercise3\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
         "map": [
             {
