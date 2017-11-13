@@ -3,6 +3,7 @@ package com.example.khy_j.a410321171_exercise3;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.text.method.ScrollingMovementMethod;
 import android.view.KeyEvent;
@@ -23,6 +24,7 @@ public class DetailsActivity extends AppCompatActivity {
     private ImageButton btnMap;
     private ImageButton btnWeb;
     private ImageButton btnCall;
+    private ImageButton btnCamera;
     private Button btnReturn;
 
     String strCitys;
@@ -45,6 +47,7 @@ public class DetailsActivity extends AppCompatActivity {
         btnMap = (ImageButton)findViewById(R.id.imageButton_map);
         btnWeb = (ImageButton)findViewById(R.id.imageButton_web);
         btnCall = (ImageButton)findViewById(R.id.imageButton_call);
+        btnCamera = (ImageButton)findViewById(R.id.imageButton_camera);
 
         // 取得 bundle
 
@@ -68,6 +71,7 @@ public class DetailsActivity extends AppCompatActivity {
         btnMap.setOnClickListener(btnMapListener);
         btnWeb.setOnClickListener(btnWebListener);
         btnCall.setOnClickListener(btnCallListener);
+        btnCamera.setOnClickListener(btnCameraListener);
     }
 
     private ImageButton.OnClickListener btnMapListener = new ImageButton.OnClickListener(){
@@ -103,12 +107,20 @@ public class DetailsActivity extends AppCompatActivity {
         }
     };
 
+    private ImageButton.OnClickListener btnCameraListener = new ImageButton.OnClickListener(){
+        @Override
+        public void onClick(View v)
+        {
+            Intent cameraIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+            startActivity(cameraIntent);
+        }
+    };
+
     public boolean onKeyDown(int keyCode, KeyEvent event)  {
         if (keyCode == KeyEvent.KEYCODE_BACK && event.getRepeatCount() == 0) {
             finish();
             return true;
         }
-
         return super.onKeyDown(keyCode, event);
     }
 }
