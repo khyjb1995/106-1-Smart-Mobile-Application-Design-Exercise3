@@ -41,7 +41,6 @@ public class DetailsActivity extends AppCompatActivity {
         btnMap = (ImageButton)findViewById(R.id.imageButton_map);
         btnWeb = (ImageButton)findViewById(R.id.imageButton_web);
         btnCall = (ImageButton)findViewById(R.id.imageButton_call);
-        btnReturn = (Button)findViewById(R.id.btn) ;
 
         // 取得 bundle
         Intent intent=this.getIntent();
@@ -54,7 +53,7 @@ public class DetailsActivity extends AppCompatActivity {
         strWeb = bundle.getString("WEB");
         strPhone = bundle.getInt("PHONE");
 
-        
+
     }
 
     public boolean onKeyDown(int keyCode, KeyEvent event)  {
