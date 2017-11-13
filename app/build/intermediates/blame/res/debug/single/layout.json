@@ -294,5 +294,9 @@
     {
         "merged": "C:\\Users\\khy_j\\Desktop\\410321171_Exercise3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
         "source": "C:\\Users\\khy_j\\.android\\build-cache\\8ce9b9b1d4e1b533358cface2e1af0e7cdaa913d\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "C:\\Users\\khy_j\\Dropbox\\National Dong Hwang University\\106-1 Smart Mobile Application Design\\410321171_Exercise3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_datails.xml",
+        "source": "C:\\Users\\khy_j\\Dropbox\\National Dong Hwang University\\106-1 Smart Mobile Application Design\\410321171_Exercise3\\app\\src\\main\\res\\layout\\activity_datails.xml"
     }
 ]
