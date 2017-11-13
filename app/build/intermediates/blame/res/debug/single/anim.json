@@ -1,0 +1,82 @@
+[
+    {
+        "merged": "C:\\Users\\khy_j\\Desktop\\410321171_Exercise3\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\khy_j\\.android\\build-cache\\8ce9b9b1d4e1b533358cface2e1af0e7cdaa913d\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\khy_j\\Dropbox\\National Dong Hwang University\\106-1 Smart Mobile Application Design\\410321171_Exercise3\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\khy_j\\.android\\build-cache\\8ce9b9b1d4e1b533358cface2e1af0e7cdaa913d\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\khy_j\\Desktop\\410321171_Exercise3\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\khy_j\\.android\\build-cache\\8ce9b9b1d4e1b533358cface2e1af0e7cdaa913d\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\khy_j\\Desktop\\410321171_Exercise3\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\khy_j\\.android\\build-cache\\8ce9b9b1d4e1b533358cface2e1af0e7cdaa913d\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\khy_j\\Dropbox\\National Dong Hwang University\\106-1 Smart Mobile Application Design\\410321171_Exercise3\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\khy_j\\.android\\build-cache\\8ce9b9b1d4e1b533358cface2e1af0e7cdaa913d\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\khy_j\\Dropbox\\National Dong Hwang University\\106-1 Smart Mobile Application Design\\410321171_Exercise3\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\khy_j\\.android\\build-cache\\8ce9b9b1d4e1b533358cface2e1af0e7cdaa913d\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\khy_j\\Dropbox\\National Dong Hwang University\\106-1 Smart Mobile Application Design\\410321171_Exercise3\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\khy_j\\.android\\build-cache\\8ce9b9b1d4e1b533358cface2e1af0e7cdaa913d\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\khy_j\\Dropbox\\National Dong Hwang University\\106-1 Smart Mobile Application Design\\410321171_Exercise3\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\khy_j\\.android\\build-cache\\8ce9b9b1d4e1b533358cface2e1af0e7cdaa913d\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\khy_j\\Dropbox\\National Dong Hwang University\\106-1 Smart Mobile Application Design\\410321171_Exercise3\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\khy_j\\.android\\build-cache\\8ce9b9b1d4e1b533358cface2e1af0e7cdaa913d\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\khy_j\\Desktop\\410321171_Exercise3\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\khy_j\\.android\\build-cache\\8ce9b9b1d4e1b533358cface2e1af0e7cdaa913d\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\khy_j\\Dropbox\\National Dong Hwang University\\106-1 Smart Mobile Application Design\\410321171_Exercise3\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\khy_j\\.android\\build-cache\\8ce9b9b1d4e1b533358cface2e1af0e7cdaa913d\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\khy_j\\Desktop\\410321171_Exercise3\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\khy_j\\.android\\build-cache\\8ce9b9b1d4e1b533358cface2e1af0e7cdaa913d\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\khy_j\\Desktop\\410321171_Exercise3\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\khy_j\\.android\\build-cache\\8ce9b9b1d4e1b533358cface2e1af0e7cdaa913d\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\khy_j\\Desktop\\410321171_Exercise3\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\khy_j\\.android\\build-cache\\8ce9b9b1d4e1b533358cface2e1af0e7cdaa913d\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\khy_j\\Desktop\\410321171_Exercise3\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\khy_j\\.android\\build-cache\\8ce9b9b1d4e1b533358cface2e1af0e7cdaa913d\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\khy_j\\Desktop\\410321171_Exercise3\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\khy_j\\.android\\build-cache\\8ce9b9b1d4e1b533358cface2e1af0e7cdaa913d\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\khy_j\\Dropbox\\National Dong Hwang University\\106-1 Smart Mobile Application Design\\410321171_Exercise3\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\khy_j\\.android\\build-cache\\8ce9b9b1d4e1b533358cface2e1af0e7cdaa913d\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\khy_j\\Desktop\\410321171_Exercise3\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\khy_j\\.android\\build-cache\\8ce9b9b1d4e1b533358cface2e1af0e7cdaa913d\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\khy_j\\Dropbox\\National Dong Hwang University\\106-1 Smart Mobile Application Design\\410321171_Exercise3\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\khy_j\\.android\\build-cache\\8ce9b9b1d4e1b533358cface2e1af0e7cdaa913d\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\khy_j\\Dropbox\\National Dong Hwang University\\106-1 Smart Mobile Application Design\\410321171_Exercise3\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\khy_j\\.android\\build-cache\\8ce9b9b1d4e1b533358cface2e1af0e7cdaa913d\\output\\res\\anim\\abc_slide_out_top.xml"
+    }
+]
