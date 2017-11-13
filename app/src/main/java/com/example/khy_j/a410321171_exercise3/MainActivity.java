@@ -1,10 +1,15 @@
 package com.example.khy_j.a410321171_exercise3;
 
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
@@ -49,7 +54,32 @@ public class MainActivity extends AppCompatActivity {
         lstPlace.setAdapter(adapter);
         lstPlace.setOnItemClickListener(lstPreferListener);
 
+
     }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.options_menu, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item){
+        switch (item.getItemId()){
+            case R.id.menu_about:
+                AlertDialog.Builder adbView = new AlertDialog.Builder(MainActivity.this);
+                adbView.setTitle("關於About")
+                        .setIcon(R.mipmap.ic_launcher)
+                        .setMessage("簡浩揚 設計\nDesign by KARN HOW YONG\nID: 410321171")
+                        .show();
+                break;
+            case R.id.menu_quit:
+                finish();
+                break;
+        }
+        return  super.onOptionsItemSelected(item);
+    }
+
 
     public class MyAdapter extends BaseAdapter {
         private LayoutInflater myInflater;
