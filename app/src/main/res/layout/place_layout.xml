@@ -8,10 +8,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="5dp"
-        android:layout_marginTop="2dp"
+        android:layout_marginTop="5dp"
         android:text="第一行文字"
-        android:textAlignment="viewStart"
-        android:textAppearance="@android:style/TextAppearance.Small" />
+        android:textAppearance="@android:style/TextAppearance.Medium" />
 
     <TextView
         android:id="@+id/txtPlace"
@@ -19,9 +18,9 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/txtCity"
         android:layout_marginLeft="5dp"
-        android:layout_marginTop="0dp"
+        android:layout_marginTop="10dp"
         android:text="第二行文字"
         android:textAlignment="center"
-        android:textAppearance="@android:style/TextAppearance.Medium" />
+        android:textAppearance="@android:style/TextAppearance.Large" />
 
 </RelativeLayout>
