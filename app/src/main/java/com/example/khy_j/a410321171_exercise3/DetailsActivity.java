@@ -22,6 +22,7 @@ public class DetailsActivity extends AppCompatActivity {
     private ImageButton btnCall;
     private Button btnReturn;
 
+    String strCitys;
     String strPlaces;
     String strDetails;
     String strPics;
@@ -45,6 +46,7 @@ public class DetailsActivity extends AppCompatActivity {
         // 取得 bundle
         Intent intent=this.getIntent();
         Bundle bundle=intent.getExtras();
+        strCitys = bundle.getString("CITY");
         strPlaces = bundle.getString("PLACE");
         strDetails = bundle.getString("DETAIL");
         strPics = bundle.getString("PIC");
@@ -53,7 +55,7 @@ public class DetailsActivity extends AppCompatActivity {
         strWeb = bundle.getString("WEB");
         strPhone = bundle.getInt("PHONE");
 
-
+        txtPlace.setText(strPlaces);
     }
 
     public boolean onKeyDown(int keyCode, KeyEvent event)  {

@@ -8,6 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fe642b1d-c980-4399-9f72-d91026d44a8a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/khy_j/a410321171_exercise3/DetailsActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/khy_j/a410321171_exercise3/DetailsActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/khy_j/a410321171_exercise3/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/khy_j/a410321171_exercise3/MainActivity.java" />
     </list>
     <ignored path="410321171_Exercise3.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,15 +53,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/khy_j/a410321171_exercise3/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="800">
-              <caret line="42" column="48" selection-start-line="36" selection-start-column="12" selection-end-line="42" selection-end-column="48" />
+            <state relative-caret-position="375">
+              <caret line="32" column="122" selection-start-line="32" selection-start-column="104" selection-end-line="32" selection-end-column="122" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#909#1620#0" expanded="true" />
-                <element signature="e#1619#1620#0" expanded="true" />
+                <element signature="e#1228#1990#0" expanded="true" />
+                <element signature="e#1989#1990#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -79,11 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DetailsActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DetailsActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/khy_j/a410321171_exercise3/DetailsActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="42" column="51" selection-start-line="42" selection-start-column="51" selection-end-line="42" selection-end-column="51" />
+            <state relative-caret-position="679">
+              <caret line="51" column="42" selection-start-line="51" selection-start-column="42" selection-end-line="51" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1937,8 +1938,8 @@
       <list>
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_datails.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/khy_j/a410321171_exercise3/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_datails.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/khy_j/a410321171_exercise3/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/khy_j/a410321171_exercise3/DetailsActivity.java" />
       </list>
     </option>
@@ -2440,6 +2441,14 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_datails.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -2451,11 +2460,13 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_datails.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/khy_j/a410321171_exercise3/DetailsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-          <folding />
+        <state relative-caret-position="679">
+          <caret line="51" column="42" selection-start-line="51" selection-start-column="42" selection-end-line="51" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2472,22 +2483,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/khy_j/a410321171_exercise3/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="42" column="48" selection-start-line="36" selection-start-column="12" selection-end-line="42" selection-end-column="48" />
+        <state relative-caret-position="375">
+          <caret line="32" column="122" selection-start-line="32" selection-start-column="104" selection-end-line="32" selection-end-column="122" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#909#1620#0" expanded="true" />
-            <element signature="e#1619#1620#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/khy_j/a410321171_exercise3/DetailsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="42" column="51" selection-start-line="42" selection-start-column="51" selection-end-line="42" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1228#1990#0" expanded="true" />
+            <element signature="e#1989#1990#0" expanded="true" />
           </folding>
         </state>
       </provider>

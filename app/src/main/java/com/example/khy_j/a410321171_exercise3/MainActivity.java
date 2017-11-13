@@ -5,11 +5,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 public class MainActivity extends AppCompatActivity {
     private ListView lstPlace;
 
+    String[] strCitys = new String[0];
     String[] strPlaces = new String[0];
     String[] strDetails = new String[0];
     String[] strPics = new String[0];
@@ -24,6 +26,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         lstPlace = (ListView)findViewById(R.id.listView_place);
+
+        strCitys[0] = "花蓮縣";
+        strPlaces[0] = "七星潭海岸風景區";
+
+        ArrayAdapter<String> adapterDatas = new ArrayAdapter<String>(MainActivity.this,android.R.layout.simple_list_item_2,strPlaces);
+        lstPlace.setAdapter(adapterDatas);
     }
 
     private ListView.OnItemClickListener lstPreferListener = new ListView.OnItemClickListener()
@@ -34,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
             intent.setClass(MainActivity.this,DetailsActivity.class);
 
             Bundle bundle = new Bundle();
+            bundle.putString("CITY", strCitys[i]);
             bundle.putString("PLACE", strPlaces[i]);
             bundle.putString("DETAIL", strDetails[i]);
             bundle.putString("PIC", strPics[i]);
